@@ -10,12 +10,16 @@ Constant value is imported from constants.py.
 #Declare 3 varibles: quantity (int), item (string), and size (float) and print quantity item "size" size
 #Lily Ellison
 
+#import value for constant (PRICE)
 import constants
 
+#set values for variables
 quantity = int(13)
 item = str('shoes')
 size = float(10.5)
 
+#print statement with variables cast as strings
 print(str(quantity) + ' ' + item + ' size ' + str(size) + '.')
 
+#print statement with variables and constant cast as strings
 print(item + ' are $' +str(constants.PRICE) + '.')
